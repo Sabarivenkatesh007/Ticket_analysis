@@ -1,0 +1,54 @@
+A man went to the theater .In the theater there are two type of
+seat available such as window seat,aisle seat. Two integer get 
+from the user A,B.then get character from the user if W or w
+is window seat and A or a is asile seat. Then get the another 
+integer from the user ,first compare the integer with the 
+character.if the number is less than the integer A display
+"SEAT AVAILABLE",if number is greater than ineteger B display
+"SEAT UNAVAILABLE".
+
+INPUT:
+     20 30
+	 W 10
+	 
+OUTPUT:
+     SEAT AVAILABLE
+	 
+	 
+	 
+PROGRAN IN JAVA:
+
+import java.util.*;
+public class Ticket{'
+
+public Static void main()
+{
+int a,b,c;
+char s;
+Scanner sc=new Scanner(System.in);
+a = sc.nextInt();
+b = sc.nextInt();
+s = sc.next().charAt(0);
+c = sc.nextInt();
+if(s=='W'||s=='w')
+{
+if(c<=a)
+{
+System.out.println("SEAT AVAILABLE");
+else
+{
+System.out.println("SEAT NOT AVAILABLE");
+}
+}
+if(s=='A'||s=='a')
+{
+if(c<=b)
+{
+System.out.println("SEAT AVAILABLE");
+else
+{
+System.out.println("SEAT NOT AVAILABLE");
+}
+}
+}
+}
